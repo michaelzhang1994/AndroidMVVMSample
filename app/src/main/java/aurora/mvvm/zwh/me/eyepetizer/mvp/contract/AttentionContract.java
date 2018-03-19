@@ -1,13 +1,12 @@
 package aurora.mvvm.zwh.me.eyepetizer.mvp.contract;
 
-import com.jess.arms.mvp.IModel;
-import com.jess.arms.mvp.IView;
-import com.zwh.mvparms.eyepetizer.mvp.model.entity.AttentionInfo;
-import com.zwh.mvparms.eyepetizer.mvp.model.entity.MyAttentionEntity;
+
+import android.database.Observable;
 
 import java.util.List;
 
-import io.reactivex.Observable;
+import aurora.mvvm.zwh.me.eyepetizer.mvp.model.entity.AttentionInfo;
+import aurora.mvvm.zwh.me.eyepetizer.mvp.model.entity.MyAttentionEntity;
 
 
 public interface AttentionContract {
