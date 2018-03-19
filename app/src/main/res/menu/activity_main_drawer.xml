@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ve_home_grey"
+            android:title="首页" />
+
+        <item
+            android:id="@+id/nav_attention"
+            android:icon="@drawable/ve_attention_grey"
+            android:title="关注" />
+        <item
+            android:id="@+id/nav_cache"
+            android:icon="@drawable/ve_video_library_grey"
+            android:title="缓存" />
+        <item
+            android:id="@+id/nav_recode"
+            android:icon="@drawable/ve_access_time_grey"
+            android:title="观看记录" />
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_setting"
+                android:title="设置" />
+        </menu>
+    </item>
+
+</menu>
